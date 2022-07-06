@@ -181,54 +181,27 @@
     "trxDate": "12",
     "codePst": "12",
     "transactionStatus": "VALIDE",
-    "transactionType": "ACHAT"
-  },
-   "Recharge": {
-    "pancarte": "123",
-    "montant": "123",
-    "checksum": "12",
-    "tpeStan": "12",
-    "montantFinal": "12", 
+    "transactionType": "ACHAT",
     "codeAdmin": "12",
     "transactionStatus": "VALIDE",
     "transactionType": "RECHARGE",
-    "refTransaction": "12365"
-  },
-  
-  "Annulation": {
-    "pancarte": "123",
+    "refTransaction": "12365",
     "montant": "123",
-    "tpeStan": "12",
     "montantFinal": "12", 
-    "codePst": "12",
     "transactionStatus": "CANCELED",
     "transactionType": "RECHARGE",
-    "refTransaction": "12365"
-  },
-  
-   "Collecte": {
+    "refTransaction": "12365",
     "validSum": "123",
-    "cancelSum": "123"
-  },
-  
-   "Duplicata": {
+    "cancelSum": "123",
     "pancarte": "123",
     "montant": "123",
-    "tpeStan": "12",
     "montantFinal": "12", 
-    "codePst": "12",
     "transactionStatus": "CANCELED",
     "transactionType": "RECHARGE",
-    "refTransaction": "12365"
-  },
-  
-   "DevCarte": {
+    "refTransaction": "12365",
     "pancarte": "123",
     "newPwd": "123",
-    "confirmPwd": "125" 
-  },
-  
-    "PwdReset": {
+    "confirmPwd": "125", 
     "pancarte": "123",
     "oldPwd" : "256",
     "newPwd": "123",
