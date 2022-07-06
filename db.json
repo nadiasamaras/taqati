@@ -1,0 +1,237 @@
+{
+  "referencing": {
+    "posParams": [
+      {
+        "code": "STATION_NAME",
+        "value": " WINXO"
+      },
+      {
+        "code": "STATION_ID",
+        "value": " 12"
+      },
+      {
+        "code": "TERMINAL_ID",
+        "value": " 123"
+      },
+      {
+        "code": "FILIALE_CODE",
+        "value": " 123"
+      },
+      {
+        "code": "STATION_ADDRESS",
+        "value": " WINXO ROUTE BENSLIMANE"
+      },
+      {
+        "code": "STATION_CITY",
+        "value": "casablanca"
+      },
+      {
+        "code": "TELECOLLECT_HOUR",
+        "value": "00:00"
+      },
+      {
+        "code": "MAX_CONNECTION_ATTEMPTS",
+        "value": "3"
+      },
+      {
+        "code": "MAX_CONNECTION_DELAY",
+        "value": "10"
+      },
+      {
+        "code": "SERVER_ADDRESS",
+        "value": " 192168010176"
+      },
+      {
+        "code": "RESCUE_SERVER_ADDRESS",
+        "value": " 192168010036"
+      },
+      {
+        "code": "SERVER_PORT",
+        "value": " 2000"
+      },
+      {
+        "code": "RESCUE_SERVER_PORT",
+        "value": "2001"
+      }
+    ],
+    "versions": [
+      {
+        "code": "PRODUCT",
+        "currentVersion": "1123"
+      },
+      {
+        "code": "AUTH_SERVICE",
+        "currentVersion": "1024"
+      },
+      {
+        "code": "POS_PARAM",
+        "currentVersion": "1023"
+      }
+    ],
+    "services": [
+      {
+        "code": "CANCELLATION",
+        "active": " true"
+      },
+      {
+        "code": "RECHARGE",
+        "active": "false"
+      },
+      {
+        "code": "CHANGE_PIN",
+        "active": "true"
+      },
+      {
+        "code": "UNLOCK_PIN",
+        "active": "false"
+      },
+      {
+        "code": "CONS_HIST_CARD",
+        "active": "false"
+      },
+      {
+        "code": "EDIT_DUPLICATE",
+        "active": "false"
+      },
+      {
+        "code": "EDIT_JOURNAL",
+        "active": "false"
+      },
+      {
+        "code": "EDIT_TOTAL",
+        "active": "false"
+      },
+      {
+        "code": "EDIT_PARAM",
+        "active": "false"
+      },
+      {
+        "code": "MANUAL_EOD",
+        "active": "false"
+      },
+      {
+        "code": "AUTO_EOD",
+        "active": "false"
+      },
+      {
+        "code": "MANUAL_REFER",
+        "active": "false"
+      }
+    ],
+    "products": [
+      {
+        "code": "SANS_PLOMB",
+        "name": "sans plomb",
+        "price": "222",
+        "category": "CARBURANT"
+      },
+      {
+        "code": "CASOIL",
+        "name": "casoil",
+        "price": "18",
+        "category": "CARBURANT"
+      },
+      {
+        "code": "MELANGE",
+        "name": "Melange",
+        "price": "18",
+        "category": "CARBURANT"
+      },
+      {
+        "code": "FILTRE1",
+        "name": "filtre 1",
+        "price": "222",
+        "category": "VIDANGE"
+      },
+      {
+        "code": "FILTRE2",
+        "name": "filtre 2",
+        "price": "222",
+        "category": "VIDANGE"
+      },
+      {
+        "code": "FILTRE A HUILE",
+        "name": "filtre 2",
+        "price": "222",
+        "category": "VIDANGE"
+      },
+      {
+        "code": "BOUTIQUE",
+        "name": "boutique",
+        "price": "22",
+        "category": "BOUTIQUE"
+      },
+      {
+        "code": "LAVAGE",
+        "name": "lavage",
+        "price": "222",
+        "category": "LAVAGE"
+      }
+    ]
+  },
+  "Purchase": {
+    "pancarte": "123",
+    "montant": "123",
+    "idproduit": "123",
+    "prixunitaire": "12",
+    "quantite": "12",
+    "checksum": "12",
+    "tpeStan": "12",
+    "montantFinal": "12",
+    "trxDate": "12",
+    "codePst": "12",
+    "transactionStatus": "VALIDE",
+    "transactionType": "ACHAT"
+  },
+   "Recharge": {
+    "pancarte": "123",
+    "montant": "123",
+    "checksum": "12",
+    "tpeStan": "12",
+    "montantFinal": "12", 
+    "codeAdmin": "12",
+    "transactionStatus": "VALIDE",
+    "transactionType": "RECHARGE",
+    "refTransaction": "12365"
+  },
+  
+  "Annulation": {
+    "pancarte": "123",
+    "montant": "123",
+    "tpeStan": "12",
+    "montantFinal": "12", 
+    "codePst": "12",
+    "transactionStatus": "CANCELED",
+    "transactionType": "RECHARGE",
+    "refTransaction": "12365"
+  },
+  
+   "Collecte": {
+    "validSum": "123",
+    "cancelSum": "123"
+  },
+  
+   "Duplicata": {
+    "pancarte": "123",
+    "montant": "123",
+    "tpeStan": "12",
+    "montantFinal": "12", 
+    "codePst": "12",
+    "transactionStatus": "CANCELED",
+    "transactionType": "RECHARGE",
+    "refTransaction": "12365"
+  },
+  
+   "DevCarte": {
+    "pancarte": "123",
+    "newPwd": "123",
+    "confirmPwd": "125" 
+  },
+  
+    "PwdReset": {
+    "pancarte": "123",
+    "oldPwd" : "256",
+    "newPwd": "123",
+    "confirmPwd": "125" 
+  }
+}
