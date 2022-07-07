@@ -179,7 +179,7 @@
     "checksum": "12",
     "tpeStan": "12",
     "montantFinal": "12",
-    "trxDate": "12",
+    "trxRef": "12",
     "codePst": "12",
     "transactionStatus": "VALIDE",
     "transactionType": "ACHAT",
