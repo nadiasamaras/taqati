@@ -3,23 +3,23 @@
     "posParams": [
       {
         "code": "STATION_NAME",
-        "value": " VIVO Energy"
+        "value": "VIVO Energy"
       },
       {
         "code": "STATION_ID",
-        "value": " 12"
+        "value": "12"
       },
       {
         "code": "TERMINAL_ID",
-        "value": " 123"
+        "value": "123"
       },
       {
         "code": "FILIALE_CODE",
-        "value": " 123"
+        "value": "123"
       },
       {
         "code": "STATION_ADDRESS",
-        "value": " VIVO ROUTE BENSLIMANE"
+        "value": "VIVO ROUTE BENSLIMANE"
       },
       {
         "code": "STATION_CITY",
