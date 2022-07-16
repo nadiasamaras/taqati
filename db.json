@@ -71,88 +71,88 @@
     "services": [
       {
         "code": "CANCELLATION",
-        "active": " true"
+        "active": " OUI"
       },
       {
         "code": "RECHARGE",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "CHANGE_PIN",
-        "active": "true"
+        "active": "OUI"
       },
       {
         "code": "UNLOCK_PIN",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "CONS_HIST_CARD",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "EDIT_DUPLICATE",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "EDIT_JOURNAL",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "EDIT_TOTAL",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "EDIT_PARAM",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "MANUAL_EOD",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "AUTO_EOD",
-        "active": "false"
+        "active": "OUI"
       },
       {
         "code": "MANUAL_REFER",
-        "active": "false"
+        "active": "OUI"
       }
     ],
     "products": [
       {
         "code": "SANS_PLOMB",
         "name": "sans plomb",
-        "price": "222",
+        "price": "19.01",
         "category": "CARBURANT"
       },
       {
         "code": "CASOIL",
         "name": "casoil",
-        "price": "18",
+        "price": "15.52",
         "category": "CARBURANT"
       },
       {
         "code": "MELANGE",
         "name": "Melange",
-        "price": "18",
+        "price": "17.15",
         "category": "CARBURANT"
       },
       {
-        "code": "FILTRE1",
+        "code": "Filtre a Gasoil",
         "name": "filtre 1",
         "price": "222",
         "category": "VIDANGE"
       },
       {
-        "code": "FILTRE2",
+        "code": "Filtre a Air",
         "name": "filtre 2",
-        "price": "222",
+        "price": "16",
         "category": "VIDANGE"
       },
       {
-        "code": "FILTRE A HUILE",
+        "code": "filte a huile",
         "name": "filtre 2",
-        "price": "222",
+        "price": "18",
         "category": "VIDANGE"
       },
       {
@@ -164,30 +164,30 @@
       {
         "code": "LAVAGE",
         "name": "lavage",
-        "price": "222",
+        "price": "22.14",
         "category": "LAVAGE"
       }
     ]
   },
   "Purchase": {
-    "pancarte": "123",
-    "montant": "123",
+    "pancarte": "1112563486924110",
+    "montant": "17.15",
     "idproduit": "123",
-    "prixunitaire": "12",
-    "refTrans": "12336",
+    "prixunitaire": "17.85",
+    "refTrans": "0016",
     "quantite": "12",
     "checksum": "12",
-    "tpeStan": "12",
+    "tpeStan": "0008",
     "montantFinal": "12",
-    "trxRef": "12",
-    "codePst": "12",
+    "trxRef": "1247",
+    "codePst": "0015",
     "transactionStatus": "VALIDE",
     "transactionType": "ACHAT",
-    "codeAdmin": "12",
+    "codeAdmin": "008",
     "transactionStatus": "VALIDE",
     "transactionType": "RECHARGE",
     "montant": "123",
-    "montantFinal": "12", 
+    "montantFinal": "18.65", 
     "transactionStatus": "CANCELED",
     "transactionType": "RECHARGE",
     "validSum": "123",
@@ -198,10 +198,10 @@
     "transactionStatus": "CANCELED",
     "transactionType": "RECHARGE",
     "refTransaction": "12365",
-    "pancarte": "123",
+    "pancarte": "1112563486924111",
     "newPwd": "123",
     "confirmPwd": "125", 
-    "pancarte": "123",
+    "pancarte": "1112563486924114",
     "oldPwd" : "256",
     "newPwd": "123",
     "confirmPwd": "125" 
